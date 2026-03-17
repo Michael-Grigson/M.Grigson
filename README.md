@@ -1,5 +1,5 @@
 # Hello, I'm Michael Grigson
-<a href="https://linkedin.com"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="[https://linkedin.com](https://www.linkedin.com/in/michael-grigson-2592169b/)"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 ## About
 
@@ -35,12 +35,12 @@ My career direction is toward Cloud Security Engineering, focusing on identity s
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| Blocking legacy authentication via Conditional Access          | <a href="https://google.com">Blocking legacy authentication via Conditional Access</a>|
-| Enforcing MFA for privileged roles | <a href="https://google.com">Enforcing MFA for privileged roles</a>|
-| BitLocker enforcement via Intune compliance policy         | BitLocker enforcement via Intune compliance policy|
-| Device compliance required for Microsoft 365 access      | Device compliance required for Microsoft 365 access|
-| Analysing Entra ID sign-in logs for risky activity                  | Analysing Entra ID sign-in logs for risky activity|
-| Set up a new Microsoft Entra tenant | Set up a new Microsoft Entra tenant|
+| Blocking legacy authentication via Conditional Access          | Blocking legacy authentication via Conditional Access |
+| Enforcing MFA for privileged roles | Enforcing MFA for privileged roles |
+| BitLocker enforcement via Intune compliance policy         | BitLocker enforcement via Intune compliance policy |
+| Device compliance required for Microsoft 365 access      | Device compliance required for Microsoft 365 access |
+| Analysing Entra ID sign-in logs for risky activity                  | Analysing Entra ID sign-in logs for risky activity |
+| Set up a new Microsoft Entra tenant | Set up a new Microsoft Entra tenant |
 
 ## Tools
 ### Identity & Access Management
