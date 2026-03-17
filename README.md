@@ -40,7 +40,7 @@ My career direction is toward Cloud Security Engineering, focusing on identity s
 | BitLocker enforcement via Intune compliance policy         | BitLocker enforcement via Intune compliance policy|
 | Device compliance required for Microsoft 365 access      | Device compliance required for Microsoft 365 access|
 | Analysing Entra ID sign-in logs for risky activity                  | Analysing Entra ID sign-in logs for risky activity|
-| Tenant Creation | Tenant Creation|
+| Set up a new Microsoft Entra tenant | Set up a new Microsoft Entra tenant|
 
 ## Tools
 ### Identity & Access Management
