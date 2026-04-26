@@ -78,7 +78,7 @@ This portfolio showcases practical implementations of:
 
 ### 📁 Project A — Azure Identity & Governance Foundation  
 📂 Location: `/projects/project-a-identity-governance`  
-📊 Status: 🟨 Planned 
+📊 Status: 🟩 Complete  
 
 Identity, RBAC, and governance implementation.
 
@@ -147,7 +147,7 @@ Monitoring and disaster recovery.
 
 ---
 
-### 📁 Project E — Secure Azure Enterprise Environment (Flagship)  
+### 📁 Project E — Secure Azure Enterprise Environment 
 📂 Location: `/projects/project-e-secure-enterprise`  
 📊 Status: 🟨 Planned 
 
