@@ -11,8 +11,13 @@
 
 ---
 
-Hi! I'm **Michael**. I am a Senior Endpoint and Security Engineer working across Microsoft 365, specialising in endpoint management, identity, and access control within hybrid environments.
-I am continuing to develop my capabilities across Microsoft 365 and Azure cloud engineering, with a focused interest in security, identity, and access governance.
+Hi, I’m **Michael**! A Microsoft certified Endpoint and Security Engineer specialising in Microsoft 365, Entra ID, and endpoint management across hybrid environments.
+
+I design and implement identity, access control, and device security aligned to Zero Trust principles, with hands-on experience spanning Conditional Access, RBAC, compliance, and tenant-level security controls.
+
+I am actively transitioning into an Azure and Microsoft 365 Cloud Engineer role, building production-ready capability across cloud infrastructure, identity governance, and security architecture.
+
+This portfolio documents my hands-on labs and implementations, focused on real-world Azure administration, access control, and secure cloud design.
 
 This portfolio showcases practical implementations of:
 
@@ -55,12 +60,12 @@ This portfolio showcases practical implementations of:
 |------|-------------|
 | ☁️ Cloud Platforms | Microsoft Azure, Microsoft Entra ID, Microsoft 365 |
 | 🌍 Cloud Concepts | High Availability, Scalability, Fault Tolerance, Cost Management |
-| 🔐 Identity & Access | Entra ID, RBAC, Conditional Access, PIM, Identity Protection |
+| 🔐 Identity & Access | Entra ID, RBAC, Conditional Access, PIM, Identity Protection, Active Directory |
 | 🧭 Identity Governance | Access Reviews, Entitlement Management |
-| 💻 Endpoint | Intune, Autopilot, BitLocker |
+| 💻 Endpoint | Intune, SCCM, Autopilot, App Deployment, Device Compliance, BitLocker |
 | 🛡 Security | Defender Suite, Defender for Cloud |
 | 🏢 M365 | Exchange, SharePoint, Teams, OneDrive |
-| 📜 Governance | Azure Policy, Tags, Locks, Purview |
+| 📜 Governance | Azure Policy, Tags, Locks, Purview - DLP, Data retention, eDiscovery |
 | 🖥 Compute | Virtual Machines, VM Scale Sets |
 | 🌐 Networking | VNets, NSGs, DNS, Peering, Load Balancer |
 | 💾 Storage | Blob, File Shares, SAS |
@@ -76,7 +81,7 @@ This portfolio showcases practical implementations of:
 
 ---
 
-### 📁 Project A — Azure Identity & Governance Foundation  
+### 📁 Project A - Azure Identity & Governance Foundation  
 📂 Location: `/projects/project-a-identity-governance`  
 📊 Status: 🟩 Complete  
 
@@ -94,9 +99,9 @@ Identity, RBAC, and governance implementation.
 
 ---
 
-### 📁 Project B — Azure Network Architecture & Connectivity  
+### 📁 Project B - Azure Network Architecture & Connectivity  
 📂 Location: `/projects/project-b-networking`  
-📊 Status: 🟨 Planned  
+📊 Status: 🟨 In Progress  
 
 Secure segmented networking.
 
@@ -112,7 +117,7 @@ Secure segmented networking.
 
 ---
 
-### 📁 Project C — Azure Compute, Storage & Scaling  
+### 📁 Project C - Azure Compute, Storage & Scaling  
 📂 Location: `/projects/project-c-compute-storage`  
 📊 Status: 🟨 Planned 
 
@@ -129,7 +134,7 @@ Compute and storage deployment.
 
 ---
 
-### 📁 Project D — Monitoring, Backup & Resilience  
+### 📁 Project D - Monitoring, Backup & Resilience  
 📂 Location: `/projects/project-d-monitoring-backup`  
 📊 Status: 🟨 Planned 
 
@@ -147,7 +152,7 @@ Monitoring and disaster recovery.
 
 ---
 
-### 📁 Project E — Secure Azure Enterprise Environment 
+### 📁 Project E - Secure Azure Enterprise Environment 
 📂 Location: `/projects/project-e-secure-enterprise`  
 📊 Status: 🟨 Planned 
 
