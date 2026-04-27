@@ -5,9 +5,11 @@
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![M365](https://img.shields.io/badge/M365-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![MS-102](https://img.shields.io/badge/MS--102-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![MD-102](https://img.shields.io/badge/MD--102-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AZ-900](https://img.shields.io/badge/AZ--900-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=red)
 ![SC-300](https://img.shields.io/badge/SC--300-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=red)
-![MD-102](https://img.shields.io/badge/MD--102-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
 
 ---
 
@@ -65,7 +67,7 @@ This portfolio showcases practical implementations of:
 | 💻 Endpoint | Intune, SCCM, Autopilot, App Deployment, Device Compliance, BitLocker |
 | 🛡 Security | Defender Suite, Defender for Cloud |
 | 🏢 M365 | Exchange, SharePoint, Teams, OneDrive |
-| 📜 Governance | Azure Policy, Tags, Locks, Purview - DLP, Data retention, eDiscovery |
+| 📜 Governance | Azure Policy, Tags, Locks, Purview - DLP, Data Retention, eDiscovery |
 | 🖥 Compute | Virtual Machines, VM Scale Sets |
 | 🌐 Networking | VNets, NSGs, DNS, Peering, Load Balancer |
 | 💾 Storage | Blob, File Shares, SAS |
@@ -88,9 +90,11 @@ This portfolio showcases practical implementations of:
 Identity, RBAC, and governance implementation.
 
 **Core Components**
-- Entra ID users and groups  
-- RBAC assignments  
-- Azure Policy  
+- Entra ID users and groups
+- Break-glass account strategy for tenant recovery
+- Conditional Access enforcement (MFA and legacy authentication blocking)  
+- Group-based RBAC for scalable access control 
+- Azure Policy for tagging enforcement and remediation   
 - Resource locks  
 
 **Skills**

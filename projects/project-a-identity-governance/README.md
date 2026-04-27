@@ -1,4 +1,4 @@
-# 📁 Project A — Azure Identity \& Governance Foundation  
+# 📁 Project A - Azure Identity \& Governance Foundation  
 
 📂 Location: `/projects/project-a-identity-governance`  
 
