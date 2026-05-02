@@ -127,18 +127,23 @@ Secure segmented networking.
 
 ### 📁 Project C - Azure Compute, Storage & Scaling  
 📂 Location: [projects/project-c-compute-storage](projects/project-c-compute-storage)  
-📊 Status: 🟨 Planned 
+📊 Status: 🟨 Planned  
 
-Compute and storage deployment.
+Compute, storage, and application workload hosting.
 
 **Core Components**
 - Virtual Machines  
-- VM Scale Sets  
-- Storage  
+- Virtual Machine Scale Sets  
+- Managed Disks and Storage Accounts  
+- Azure App Services (Web Apps)  
+- Azure Container Instances (ACI)  
+- Azure Container Apps  
 
 **Skills**
-- VM management  
-- Scaling strategies  
+- Compute and workload hosting design  
+- Scaling strategies (vertical and horizontal)  
+- Storage configuration and performance optimisation  
+- Platform selection (IaaS vs PaaS vs containers)    
 
 ---
 
