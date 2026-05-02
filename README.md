@@ -13,27 +13,34 @@
 
 ---
 
-Hi, I’m **Michael** a Microsoft Certified Endpoint and Security Engineer transitioning into Azure / DevOps and M365 Cloud Engineering.
+Hi, I’m **Michael**. My background is in endpoint engineering and hybrid cloud infrastructure, where I have developed strong SME-level capability across Microsoft Intune, Windows Autopilot, endpoint compliance, device security, and modern endpoint management. I have built on that foundation into Azure and Microsoft 365 cloud engineering.
 
-I design and deliver secure, scalable cloud solutions across Microsoft 365 and Azure, with hands-on experience spanning identity, access control, endpoint management, and cloud infrastructure within hybrid environments.
+That background gives me a strong practical understanding of how modern cloud environments actually operate. Endpoint security, identity, access control, network access, device compliance, user authentication, policy enforcement, and infrastructure availability are not separate concerns. They are connected parts of the same security and operations model.
 
-My experience includes implementing Azure-based identity and access models using RBAC, Conditional Access, and policy-driven governance, alongside deploying and managing core infrastructure components such as virtual machines, networking, and storage.
+This has helped me build a deeper understanding of Zero Trust principles, particularly around verifying identity, enforcing least privilege, validating device health, controlling access through Conditional Access, and reducing implicit trust across hybrid environments.
 
-I have demonstrated practical capability in Azure administration through hands-on labs, including resource deployment, access control design, policy enforcement, monitoring with Log Analytics, and validation using activity and sign-in logs.
+This portfolio demonstrates my hands-on Azure Cloud Engineering capability across infrastructure, identity, governance, monitoring, backup, and repeatable deployment practices.
 
-Alongside this, I am building DevOps-aligned skills focused on automation, repeatable deployments, and operational consistency, with exposure to infrastructure-as-code concepts and structured environment design.
+The projects documented here are based on practical Azure administration and engineering tasks, showing how cloud resources are designed, deployed, secured, managed, and validated in a Microsoft-focused environment.
 
-This portfolio documents real-world Azure implementations, showcasing secure cloud design, identity-driven access control, and practical engineering approaches to deploying, managing, and validating cloud resources.
+Each project is structured to show what was configured, why it was configured, how it was implemented, and how the outcome was validated using Azure-native tools such as activity logs, sign-in logs, policy compliance, monitoring data, and resource state checks.
 
-- Identity and access management  
-- Governance and compliance  
-- Infrastructure as Code  
-- Virtual networking  
-- Compute and scaling  
-- Storage solutions  
-- Web and container workloads  
-- Monitoring and alerting  
-- Backup and disaster recovery  
+This portfolio demonstrates practical capability across:
+
+This portfolio demonstrates practical capability across:
+
+- Identity and access management
+- Zero Trust-aligned access control
+- Role-based access control
+- Governance and compliance
+- Azure Policy and resource controls
+- Virtual networking
+- Compute and virtual machines
+- Storage services
+- Monitoring and alerting
+- Backup and disaster recovery
+- Infrastructure as Code concepts
+- Operational validation and documentation
 
 ---
 
@@ -68,17 +75,17 @@ This portfolio documents real-world Azure implementations, showcasing secure clo
 | 🔐 Identity & Access | Entra ID, RBAC, Conditional Access, PIM, Identity Protection, Active Directory |
 | 🧭 Identity Governance | Access Reviews, Entitlement Management |
 | 💻 Endpoint | Intune, SCCM, Autopilot, App Deployment, Device Compliance, BitLocker |
-| 🛡 Security | Defender Suite, Defender for Cloud |
+| 🛡 Security | Defender Suite, Defender for Cloud, Azure Firewall, Conditional Access, Legacy Authentication Blocking |
 | 🏢 M365 | Exchange, SharePoint, Teams, OneDrive |
 | 📜 Governance | Azure Policy, Tags, Locks, Purview - DLP, Data Retention, eDiscovery |
 | 🖥 Compute | Virtual Machines, VM Scale Sets |
-| 🌐 Networking | VNets, NSGs, DNS, Peering, Load Balancer |
+| 🌐 Networking | VNets, Subnets, NSGs, ASGs, VNet Peering, User-Defined Routes, Route Tables, Azure Firewall, DNS, Load Balancer, Application Gateway |
 | 💾 Storage | Blob, File Shares, SAS |
 | 🚀 Web & Containers | App Services, ACI, Container Apps |
 | 📊 Monitoring | Azure Monitor, Log Analytics |
 | 🔎 Detection | KQL |
 | 🔁 DR | Azure Backup, Site Recovery |
-| ⚙️ Automation | PowerShell, Azure CLI, ARM, Bicep |
+| ⚙️ Automation | PowerShell, Azure CLI, ARM Templates, Bicep, Cloud Shell |
 
 ---
 
@@ -108,20 +115,36 @@ Identity, RBAC, and governance implementation.
 
 ### 📁 Project B - Azure Network Architecture & Connectivity  
 📂 Location: [projects/project-b-networking](projects/project-b-networking)  
-📊 Status: 🟨 In Progress  
+📊 Status: ✅ Complete   
 
-Secure segmented networking.
+Secure Azure network architecture with segmented VNets, private connectivity, traffic management, DNS, custom routing, and centralised firewall inspection.
 
 **Core Components**
 - Infrastructure as Code (IaC) Foundation
-- VNets and subnets  
-- NSGs  
-- Peering  
-- DNS  
+- Virtual networks and subnets
+- Network Security Groups (NSGs)
+- Application Security Groups (ASGs)
+- VNet peering
+- User-defined routes (UDRs)
+- DNS zones and records
+- Azure Load Balancer
+- Azure Application Gateway
+- Hub-spoke network architecture
+- Azure Firewall
+- Route tables for forced traffic routing
+- Centralised traffic inspection
 
 **Skills**
-- Network design  
-- Routing and security  
+- Azure network design
+- Subnet segmentation
+- Network security controls
+- Private inter-VNet connectivity
+- Routing and traffic flow control
+- DNS configuration
+- Load balancing and application routing
+- Secure hub-spoke architecture
+- Azure Firewall deployment and rule configuration
+- Network validation and troubleshooting  
 
 ---
 
