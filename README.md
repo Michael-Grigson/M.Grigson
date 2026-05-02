@@ -13,19 +13,13 @@
 
 ---
 
-Hi, I’m **Michael**. My background is in endpoint engineering and hybrid cloud infrastructure, where I have developed strong SME-level capability across Microsoft Intune, Windows Autopilot, endpoint compliance, device security, and modern endpoint management. I have built on that foundation into Azure and Microsoft 365 cloud engineering.
-
-That background gives me a strong practical understanding of how modern cloud environments actually operate. Endpoint security, identity, access control, network access, device compliance, user authentication, policy enforcement, and infrastructure availability are not separate concerns. They are connected parts of the same security and operations model.
-
-This has helped me build a deeper understanding of Zero Trust principles, particularly around verifying identity, enforcing least privilege, validating device health, controlling access through Conditional Access, and reducing implicit trust across hybrid environments.
+Hi, I’m **Michael**. My background is in endpoint engineering and hybrid cloud infrastructure, where I have developed strong SME-level capability across Microsoft Intune, Windows Autopilot, endpoint compliance, device security, and modern endpoint management. I have built on this strong foundation into now, Azure and Microsoft 365 cloud engineering.
 
 This portfolio demonstrates my hands-on Azure Cloud Engineering capability across infrastructure, identity, governance, monitoring, backup, and repeatable deployment practices.
 
 The projects documented here are based on practical Azure administration and engineering tasks, showing how cloud resources are designed, deployed, secured, managed, and validated in a Microsoft-focused environment.
 
 Each project is structured to show what was configured, why it was configured, how it was implemented, and how the outcome was validated using Azure-native tools such as activity logs, sign-in logs, policy compliance, monitoring data, and resource state checks.
-
-This portfolio demonstrates practical capability across:
 
 This portfolio demonstrates practical capability across:
 
