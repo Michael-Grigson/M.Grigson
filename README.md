@@ -184,12 +184,12 @@ Monitoring and disaster recovery.
 
 ### 📁 Project E - Secure Azure Enterprise Environment  
 📂 Location: [projects/project-e-secure-enterprise](projects/project-e-secure-enterprise)  
-📊 Status: 🟨 Planned 
+📊 Status: 🟨 In Progress 
 
 End-to-end Azure architecture combining identity, networking, compute, and monitoring.
 
 **Core Components**
-- Entra ID with RBAC and PIM  
+- Entra ID with RBAC and PIM (PIM evidence added to Project E)
 - Segmented VNets and NSGs  
 - Virtual Machines (no public IPs)  
 - Storage with controlled access  
