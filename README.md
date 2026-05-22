@@ -144,7 +144,7 @@ Secure Azure network architecture with segmented VNets, private connectivity, tr
 
 ### 📁 Project C - Azure Compute, Storage & Scaling  
 📂 Location: [projects/project-c-compute-storage](projects/project-c-compute-storage)  
-📊 Status: 🟨 Planned  
+📊 Status: 🟨 In Progress  
 
 Compute, storage, and application workload hosting.
 

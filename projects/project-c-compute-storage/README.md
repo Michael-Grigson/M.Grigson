@@ -16,8 +16,13 @@ The implementation currently includes:
 - Storage lifecycle management and access control
 - Shared Access Signature (SAS) validation
 - Storage firewall and selected network access configuration
+- Zone-resilient Azure virtual machine deployment
+- Virtual machine resizing and managed disk configuration
+- Azure Virtual Machine Scale Set deployment
+- VMSS autoscale rule configuration
+- VM SKU, quota, region, and image compatibility troubleshooting
 
-Planned implementation will extend into virtual machines, Virtual Machine Scale Sets, Azure App Service, Azure Container Instances, and Azure Container Apps.
+Planned implementation will extend into Azure App Service, Azure Container Instances, and Azure Container Apps.
 
 ---
 
@@ -44,8 +49,12 @@ The architecture is based on Azure workload hosting services across storage, com
 - **Storage lifecycle management** supports cost optimisation
 - **SAS access** provides temporary scoped access to private data
 - **Storage firewall rules** restrict access to approved networks
-- **Virtual Machines** will support IaaS workload hosting
-- **Virtual Machine Scale Sets** will support horizontal scaling
+- **Virtual Machines** support IaaS workload hosting
+- **Managed Disks** support VM storage attachment, detachment, and performance changes
+- **Availability Zones** improve VM placement resilience
+- **Virtual Machine Scale Sets** support horizontal scaling and instance management
+- **Azure Load Balancer** supports traffic distribution for VMSS-backed workloads
+- **Autoscale rules** adjust VMSS capacity based on performance thresholds
 - **Azure App Service** will support PaaS web application hosting
 - **Azure Container Instances** will support lightweight container workloads
 - **Azure Container Apps** will support managed container application hosting
@@ -76,29 +85,41 @@ This model demonstrates workload placement across the main Azure hosting options
 
 ### 2. Compute Workload Hosting  
 
-- Virtual machine deployment and configuration
-- VM resizing and disk performance changes
-- Managed disk attachment and modification
-- Availability and workload placement considerations
+- Deployed Azure virtual machines across availability zones
+- Configured VM placement for zone-resilient compute
+- Resized virtual machines to adjust compute capacity
+- Created and attached a managed data disk
+- Detached, modified, and reattached managed disk storage
+- Changed managed disk performance tier
+- Created a virtual machine using Azure PowerShell
+- Created and validated command-line VM deployment behaviour
+- Troubleshot SKU availability, quota limits, region support, and image generation compatibility
 
 **Outcome**
 
-- Planned implementation for IaaS workload hosting
-- Will demonstrate compute sizing and storage performance decisions
+- Implemented IaaS workload hosting using Azure virtual machines
+- Demonstrated compute resizing and storage performance adjustment
+- Validated practical deployment troubleshooting across region, quota, SKU, and image constraints
 
 ---
 
 ### 3. Virtual Machine Scale Sets  
 
-- VMSS deployment across availability zones
-- Load balancing configuration
-- Autoscale rule configuration
-- Scale-out and scale-in testing
+- Deployed an Azure Virtual Machine Scale Set
+- Configured VMSS networking and subnet settings
+- Configured Network Security Group rules for HTTP access
+- Configured Azure Load Balancer integration
+- Configured VMSS instance limits
+- Created scale-out rules based on CPU threshold
+- Created scale-in rules based on CPU threshold
+- Reviewed VMSS instance monitoring and scaling behaviour
+- Adjusted VMSS sizing due to Azure quota and regional capacity constraints
 
 **Outcome**
 
-- Planned implementation for horizontal scaling
-- Will demonstrate demand-based compute scaling
+- Implemented horizontal compute scaling using Azure Virtual Machine Scale Sets
+- Demonstrated autoscale configuration using performance-based rules
+- Validated real-world deployment decision-making under Azure subscription and regional limits
 
 ---
 
@@ -141,7 +162,16 @@ This model demonstrates workload placement across the main Azure hosting options
 - Validated lifecycle management configuration
 - Validated immutable blob retention configuration
 - Confirmed storage firewall and selected network access behaviour
-- Planned validation for VM sizing, VMSS autoscaling, App Service deployment slots, web app autoscaling, and container app access
+- Confirmed successful deployment of zone-resilient virtual machines
+- Validated VM resizing from one SKU to another
+- Confirmed managed disk creation, attachment, detachment, performance change, and reattachment
+- Confirmed VMSS deployment and configuration
+- Confirmed VMSS load balancing configuration
+- Configured scale-out and scale-in autoscale rules
+- Confirmed VMSS minimum, maximum, and default instance limits
+- Validated Azure PowerShell VM deployment workflow
+- Documented deployment constraints including SKU unavailability, regional quota limits, unsupported availability zones, and image generation mismatch
+- Planned validation for App Service deployment slots, web app autoscaling, and container app access
 
 ---
 
@@ -152,6 +182,12 @@ This model demonstrates workload placement across the main Azure hosting options
 - Used SAS for temporary delegated access
 - Used lifecycle management for storage cost optimisation
 - Used selected network access to reduce storage exposure
+- Used availability zones for VM placement resilience where supported
+- Used VM resizing to demonstrate vertical scaling
+- Used managed disk changes to demonstrate storage performance adjustment
+- Used VMSS to demonstrate horizontal scaling
+- Used CPU-based autoscale rules for controlled scale-out and scale-in behaviour
+- Selected alternative SKUs and regions where Azure quota or capacity restrictions prevented the original lab SKU
 - Planned multiple hosting models to compare IaaS, PaaS, and containers
 - Planned scaling coverage across VMSS and App Service autoscaling
 
@@ -168,8 +204,21 @@ This model demonstrates workload placement across the main Azure hosting options
 - Storage firewall configuration
 - Selected network access validation
 - Secure storage access testing
-- Planned virtual machine deployment and resizing
-- Planned Virtual Machine Scale Set autoscaling
+- Azure virtual machine deployment
+- Availability zone configuration
+- VM resizing and compute SKU selection
+- Managed disk creation and attachment
+- Managed disk detachment and performance tier modification
+- Azure Virtual Machine Scale Set deployment
+- VMSS networking configuration
+- Network Security Group rule configuration
+- Azure Load Balancer integration for VMSS workloads
+- VMSS autoscale rule configuration
+- Scale-out and scale-in threshold planning
+- VMSS instance limit configuration
+- Azure PowerShell VM deployment
+- Azure VM deployment troubleshooting
+- Regional quota and SKU availability assessment
 - Planned Azure App Service deployment and scaling
 - Planned container workload deployment
 
@@ -182,6 +231,12 @@ This model demonstrates workload placement across the main Azure hosting options
 - SAS provides controlled access without making containers public
 - Lifecycle rules help reduce storage cost for infrequently accessed data
 - Storage firewall rules provide an important network security layer
+- Availability zones can improve workload resilience, but support depends on region and SKU
+- VM resizing is a practical method for vertical scaling when workload demand changes
+- Managed disk performance can be adjusted independently from VM compute sizing
+- VMSS provides a scalable compute model for repeated VM instances
+- Autoscale rules need sensible thresholds, cooldown periods, and instance limits
+- Azure quota, regional capacity, and SKU availability directly affect deployment planning
 - Different workload types require different hosting models
 - Scaling strategy depends on the workload platform and performance requirements
 
@@ -195,31 +250,34 @@ This model demonstrates workload placement across the main Azure hosting options
 - Clear coverage of blob and file storage services
 - Access control tested using private access, SAS, and network restrictions
 - Cost optimisation included through lifecycle management
-- Project structure supports progression into compute and application scaling
+- Zone-resilient VM deployment implemented
+- VM compute and storage scaling demonstrated
+- VMSS autoscaling implemented using CPU-based rules
+- Real-world quota, SKU, and regional deployment constraints documented
+- Project structure supports progression into application hosting and container workloads
 
 ---
 
 ### Priority Improvements  
 
-- Complete VM and VMSS implementation
 - Complete Azure App Service deployment and autoscaling
 - Complete container workload deployment
 - Add monitoring and alerting for storage and compute resources
 - Convert repeated deployment steps into reusable Bicep templates
 - Implement private endpoints for storage and application services
+- Add cost analysis for VM, VMSS, App Service, and container hosting options
 
 ---
 
 ## 🚀 Next Steps  
 
-- Implement virtual machines and managed disks
-- Implement Virtual Machine Scale Sets and autoscaling
 - Deploy Azure App Service with deployment slots
 - Configure web app autoscaling and load testing
 - Deploy Azure Container Instances
 - Deploy Azure Container Apps
 - Add monitoring and diagnostics across deployed workloads
 - Extend the project into a complete workload hosting and scaling design
+- Convert selected manual deployments into reusable infrastructure-as-code templates
 
 ---
 
@@ -230,7 +288,7 @@ Implementation evidence is stored in the `evidence` folder and organised by work
 | Folder | Evidence Area |
 |---|---|
 | `07-storage` | Storage account, blob storage, Azure Files, SAS access, lifecycle management, immutable storage, and network access validation evidence. |
-| `08-virtual-machines` | Planned evidence for virtual machines, managed disks, resizing, and Virtual Machine Scale Sets. |
+| `08-virtual-machines` | Virtual machines, availability zones, VM resizing, managed disks, PowerShell VM deployment, VMSS deployment, load balancing, autoscale rules, quota handling, and SKU troubleshooting evidence. |
 | `09a-web-apps` | Planned evidence for Azure App Service, deployment slots, autoscaling, and load testing. |
 | `09b-container-instances` | Planned evidence for Azure Container Instances deployment and validation. |
 | `09c-container-apps` | Planned evidence for Azure Container Apps deployment and validation. |
@@ -239,6 +297,6 @@ Implementation evidence is stored in the `evidence` folder and organised by work
 
 ## 🏁 Outcome  
 
-This project currently demonstrates secure Azure Storage configuration and validation as the foundation for broader workload hosting.
+This project currently demonstrates secure Azure Storage configuration, Azure virtual machine management, managed disk scaling, and Virtual Machine Scale Set autoscaling.
 
-The next phase will expand the project into compute deployment, scaling, web application hosting, and container-based workloads.
+The next phase will expand the project into Azure App Service, deployment slots, web application autoscaling, and container-based workload hosting.
