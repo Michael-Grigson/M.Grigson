@@ -15,9 +15,9 @@
 
 Hi, I’m **Michael**. My background is in endpoint engineering and hybrid cloud infrastructure, where I have developed strong SME-level capability across Microsoft Intune, Windows Autopilot, endpoint compliance, device security, and modern endpoint management. I have built on this strong foundation into now, Azure and Microsoft 365 cloud engineering.
 
-This portfolio demonstrates my hands-on Azure Cloud Engineering capability across infrastructure, identity, governance, monitoring, backup, and repeatable deployment practices.
+I have expanded this foundation into Azure and Microsoft 365 cloud engineering, with a focus on identity, governance, networking, compute, storage, monitoring, backup, and secure workload deployment.
 
-The projects documented here are based on practical Azure administration and engineering tasks, showing how cloud resources are designed, deployed, secured, managed, and validated in a Microsoft-focused environment.
+This portfolio demonstrates practical Azure Cloud Engineering capability through hands-on projects that show how cloud resources are designed, deployed, secured, managed, and validated in a Microsoft-focused environment.
 
 Each project is structured to show what was configured, why it was configured, how it was implemented, and how the outcome was validated using Azure-native tools such as activity logs, sign-in logs, policy compliance, monitoring data, and resource state checks.
 
@@ -91,7 +91,7 @@ This portfolio demonstrates practical capability across:
 📂 Location: [projects/project-a-identity-governance](projects/project-a-identity-governance)  
 📊 Status: 🟩 Complete   
 
-Identity, RBAC, and governance implementation.
+Identity, access control, Conditional Access, RBAC, and governance enforcement for a secure Azure foundation.
 
 **Core Components**
 - Entra ID users and groups
@@ -102,8 +102,12 @@ Identity, RBAC, and governance implementation.
 - Resource locks  
 
 **Skills**
-- Identity design  
-- Governance implementation  
+- Identity and access management
+- Conditional Access policy design
+- Break-glass account planning
+- Group-based RBAC assignment
+- Azure Policy enforcement and remediation
+- Resource protection using locks
 
 ---
 
@@ -111,7 +115,7 @@ Identity, RBAC, and governance implementation.
 📂 Location: [projects/project-b-networking](projects/project-b-networking)  
 📊 Status: ✅ Complete   
 
-Secure Azure network architecture with segmented VNets, private connectivity, traffic management, DNS, custom routing, and centralised firewall inspection.
+Secure Azure network architecture using segmented VNets, inter-VNet connectivity, custom routing, DNS, load balancing, application routing, and centralised firewall inspection.
 
 **Core Components**
 - Infrastructure as Code (IaC) Foundation
@@ -146,21 +150,30 @@ Secure Azure network architecture with segmented VNets, private connectivity, tr
 📂 Location: [projects/project-c-compute-storage](projects/project-c-compute-storage)  
 📊 Status: 🟨 In Progress  
 
-Compute, storage, and application workload hosting.
+Compute, storage, and workload hosting across IaaS, PaaS, and container-based Azure services.
 
 **Core Components**
-- Virtual Machines  
-- Virtual Machine Scale Sets  
-- Managed Disks and Storage Accounts  
-- Azure App Services (Web Apps)  
-- Azure Container Instances (ACI)  
-- Azure Container Apps  
+- Secure Azure Storage Accounts
+- Blob Storage and Azure File Shares
+- Storage lifecycle management and SAS access
+- Virtual Machines
+- Managed Disks
+- Availability Zones
+- Virtual Machine Scale Sets
+- Azure Load Balancer
+- Azure App Services (Web Apps)
+- Azure Container Instances (ACI)
+- Azure Container Apps
 
 **Skills**
-- Compute and workload hosting design  
-- Scaling strategies (vertical and horizontal)  
-- Storage configuration and performance optimisation  
-- Platform selection (IaaS vs PaaS vs containers)    
+- Secure storage configuration
+- Compute and workload hosting design
+- VM resizing and managed disk performance changes
+- Scaling strategies using vertical and horizontal scaling
+- VMSS autoscaling and instance limit configuration
+- Azure SKU, quota, and regional capacity troubleshooting
+- Platform selection across IaaS, PaaS, and containers
+    
 
 ---
 
