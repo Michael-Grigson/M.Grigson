@@ -148,9 +148,11 @@ Secure Azure network architecture using segmented VNets, inter-VNet connectivity
 
 ### 📁 Project C - Azure Compute, Storage & Scaling  
 📂 Location: [projects/project-c-compute-storage](projects/project-c-compute-storage)  
-📊 Status: 🟨 In Progress  
+📊 Status: 🟩 Complete  
 
 Compute, storage, and workload hosting across IaaS, PaaS, and container-based Azure services.
+
+Compute, storage, application hosting, and container workload deployment across IaaS, PaaS, and managed container Azure services.
 
 **Core Components**
 - Secure Azure Storage Accounts
@@ -162,6 +164,8 @@ Compute, storage, and workload hosting across IaaS, PaaS, and container-based Az
 - Virtual Machine Scale Sets
 - Azure Load Balancer
 - Azure App Services (Web Apps)
+- Deployment slots
+- Web app autoscaling
 - Azure Container Instances (ACI)
 - Azure Container Apps
 
@@ -171,8 +175,12 @@ Compute, storage, and workload hosting across IaaS, PaaS, and container-based Az
 - VM resizing and managed disk performance changes
 - Scaling strategies using vertical and horizontal scaling
 - VMSS autoscaling and instance limit configuration
+- Azure App Service deployment and slot-based release validation
+- Web app autoscaling and load testing
+- Azure Container Instances deployment and public endpoint validation
+- Azure Container Apps deployment using a managed container app environment
+- Platform selection across IaaS, PaaS, lightweight containers, and managed container applications
 - Azure SKU, quota, and regional capacity troubleshooting
-- Platform selection across IaaS, PaaS, and containers
     
 
 ---
