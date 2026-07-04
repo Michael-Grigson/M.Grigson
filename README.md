@@ -3,10 +3,11 @@
 ##  Azure • DevOps • Cloud Engineering • M365
 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AZ-104](https://img.shields.io/badge/AZ--104-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AZ-900](https://img.shields.io/badge/AZ--900-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![M365](https://img.shields.io/badge/M365-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![MS-102](https://img.shields.io/badge/MS--102-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![MD-102](https://img.shields.io/badge/MD--102-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![AZ-900](https://img.shields.io/badge/AZ--900-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=red)
 ![SC-300](https://img.shields.io/badge/SC--300-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=red)
 
@@ -41,12 +42,12 @@ This portfolio demonstrates practical capability across:
 ## 🎓 Certifications
 
 | Certification | Skills Assessed |
-|--------------|-------------------|
-| **Microsoft 365 Certified: Administrator Expert - MS-102** | Implement and manage user identities, Implement authentication and access management, Plan and implement workload identities, Plan and implement identity governance |
+|--------------|-----------------|
+| **Microsoft Certified: Azure Administrator Associate - AZ-104** | Manage Azure identities and governance, Implement and manage storage, Deploy and manage Azure compute resources, Implement and manage virtual networking, Monitor and maintain Azure resources |
+| **Microsoft 365 Certified: Administrator Expert - MS-102** | Deploy and manage a Microsoft 365 tenant, Implement and manage Microsoft Entra identity and access, Manage security and threats using Microsoft Defender XDR, Manage compliance using Microsoft Purview |
 | **Microsoft Certified: Identity and Access Administrator Associate - SC-300** | Implement and manage user identities, Implement authentication and access management, Plan and implement workload identities, Plan and implement identity governance |
 | **Microsoft 365 Certified: Endpoint Administrator Associate - MD-102** | Prepare infrastructure for devices, Manage and maintain devices, Manage applications, Protect devices |
 | **Microsoft Certified: Azure Fundamentals - AZ-900** | Describe cloud concepts, Describe Azure architecture and services, Describe Azure management and governance |
-
 ---
 
 ## 🏅 Microsoft Certified: Applied Skills
@@ -187,7 +188,7 @@ Compute, storage, application hosting, and container workload deployment across 
 
 ### 📁 Project D - Monitoring, Backup & Resilience  
 📂 Location: [projects/project-d-monitoring-backup](projects/project-d-monitoring-backup)  
-📊 Status: 🟨 Planned 
+📊 Status: 🟩 Complete - Evidence to be uploaded
 
 Monitoring and disaster recovery.
 
